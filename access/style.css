@@ -1032,6 +1032,26 @@ color:white;
     height:30vh;
   }
 }
+@media(max-width:1440px){
+  .status-bar{
+    width:1000px;
+  }
+  .student-container{
+    width:1200px;
+    overflow-x: auto;
+    
+  }
+  .student-box.active{
+    transform: scale(1.0);
+  }
+  .student-dots{
+    display:none;
+  }
+  .student-box{
+    flex:0 0 550px;
+    height: 400px;
+  }
+}
 /* responsive 1080px */
 /* Media Query cho màn hình nhỏ hơn hoặc bằng 1080px */
 @media (max-width: 1080px) {
@@ -1141,7 +1161,7 @@ color:white;
     max-heigh:300px;
   }
   .student-box{
-    
+    flex:auto;
     height:200px;
   }
   .image-row{
@@ -1155,5 +1175,26 @@ color:white;
     width:350px;
   }.strategy-container-out{
     height:100vh;
+  }
+  .status-bar{
+    width:300px;
+  }
+  .contact-icons{
+    z-index:1000;
+  }
+  .footer-section{
+    width:300px;
+  }
+  .footer-section img{
+    width:300px;
+    
+  }
+  .footer-section.qr-code{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+  }
+  .footer .container{
+    margin:0 auto;
   }
 }
